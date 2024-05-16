@@ -1,9 +1,9 @@
-This project was coded by
-      <a href="https://github.com/Weddeve" target="_blank"> Tisetso Mankgeru</a>,
-      is
-      <a href="https://github.com/Weddeve/Z-weather" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://fascinating-marigold-9d09ae.netlify.app/" target="_blank"
-        >hosted on Netlify</a
+function handleSearchSubmit(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-form-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = searchInput.value;
+}
+
+let searchFormElement = document.querySelector("#search-form");
+searchFormElement.addEventListener("submit", handleSearchSubmit);
