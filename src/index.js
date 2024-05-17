@@ -56,3 +56,5 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Paris");
+
+alert("🎉Welcome to Gen-Z first weather platform!");

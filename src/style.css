@@ -1,6 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
 }
 
 a {
@@ -8,7 +16,14 @@ a {
 }
 
 .weather-app {
-  background: white;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -31,7 +46,7 @@ header {
 }
 
 .search-form-button {
-  background:#885df1;
+  background: #885df1;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -77,9 +92,9 @@ main {
 
 .weather-temperature-app {
   font-size: 88px;
-  
+
   font-weight: bold;
-  line-height: 88PX;
+  line-height: 88px;
 }
 
 .weatehr-unit-app {
